@@ -1,0 +1,43 @@
+{
+  "name": "Watson Customer Engagement Basic",
+  "description": "This starter kit can be used to create a web application that uses the Tone Analyzer for Customer Engagement endpoint to monitor customer support conversations. Escalate customer conversations when they turn sour, or find opportunities to improve customer service scripts, dialogs and customer journeys. Tones detected with this endpoint include frustrated, sad, satisfied, excited, polite, impolite and sympathetic.",
+  "thumbnailURL": "blueprint/thumbnail.svg",
+  "appIconURL": "blueprint/appicon.svg",
+  "previewURLs": [],
+  "type": "WEB",
+  "tags": [
+    "node",
+    "watson",
+    "developer"
+  ],
+  "demoURL": "https://customer-engagement-demo.mybluemix.net/",
+  "generators": {
+    "node": [
+      "generator-starterkit-content-downloader",
+      "generator-ibm-cloud-enablement"
+    ]
+  },
+  "generatorOptions": {
+    "generator-starterkit-content-downloader": {
+      "registry": "https://npm-registry.whitewater.ibm.com",
+      "scope": "@arf",
+      "version": "latest"
+    },
+    "generator-ibm-cloud-enablement": {
+      "version": "latest"
+    }
+  },
+  "requiredCapabilities": [
+    "conversation",
+    "toneAnalyzer"
+  ],
+  "requiredCapabilitiesURLs": {
+    "conversation": "https://console.bluemix.net/catalog/services/conversation",
+    "toneAnalyzer": "https://console.bluemix.net/catalog/services/tone-analyzer"
+  },
+  "servicePlans": {
+    "conversation": "free",
+    "toneAnalyzer": "lite"
+  },
+  "email": "cloud@us.ibm.com"
+}
