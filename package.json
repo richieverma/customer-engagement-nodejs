@@ -16,7 +16,6 @@
     "url": "https://github.com/watson-developer-cloud/customer-engagement-nodejs/issues"
   },
   "dependencies": {
-    "@arf/starterkit-cli": "0.0.32",
     "babel-eslint": "^7.1.1",
     "babel-polyfill": "^6.23.0",
     "babel-preset-es2015": "^6.22.0",
